@@ -110,7 +110,7 @@ chatter.auth <- function(openai_secret_key = NULL) {
 #' @importFrom openai create_completion
 chatter.create <- function(model = "text-davinci-003",
                            temperature = 0.5,
-                           max_tokens = 100,
+                           max_tokens = 200,
                            ...) {
   if (Sys.getenv("OPENAI_API_KEY") == "" || is.na(Sys.getenv("OPENAI_API_KEY"))) {
     stop(paste0(

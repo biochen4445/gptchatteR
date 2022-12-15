@@ -7,7 +7,7 @@
 chatter.create(
   model = "text-davinci-003",
   temperature = 0.5,
-  max_tokens = 100,
+  max_tokens = 200,
   ...
 )
 }
